@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
+    <script src="javascript/game.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="javascript/game.js">
-    <title>Word Guess Game</title>
+    <title>Letter Guess Game</title>
 </head>
 
 <body>
@@ -14,27 +14,20 @@
 
     <h3>Guess what letter im thinking of</h3>
 
-    <ol>
-        <li>Wins</li>
-        <li>losses</li>
-        <li>Guesses Left:</li>
-        <li>Your Guesses so far:</li>
-    </ol>
-
-    <script>
-        alert("you have 10 guesses");
-
-        var Letters = ["a", "b", "c", "d", "e"];
-        documemt.onkeyup = function(event){
-        var UserGuess = event.key;
-        var computerGuess = Letters[Math.floor(Math.random() *Letters.length)];
-        var Guesesleft = 10;
-        var wins = "a";
-        }
-        
+    
+  <div>
+      <ol>
+          <li>wins</li>
+          <li>losses</li>
+          <li>Guess left</li>
+          <li>what you guessed</li>
+           
+      </ol>
+    
+  </div>
 
 
-  </script>
+
 </body>
 
 </html>
