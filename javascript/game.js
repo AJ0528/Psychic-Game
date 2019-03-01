@@ -1,4 +1,5 @@
 
+
 alert("you have 10 guesses");
 
 var Letters = ["a", "b", "c", "d", "e"];
@@ -15,10 +16,13 @@ var userInput= prompt ("please pick a letter" + Letters);
 if (userInput != Letters){
 counter -= 1;
 if (counter > Guesesleft){
-    break
-    document.write("no more tries left");
-}
-}
+   document.write("no more tries left");
+   break
+   }
 
-    var 
-
+   if (userInput === randonLetter) {
+       document.write("Congrats you have the correct letter!");
+       document.write("The random letter was" + randonLetter);
+       document.write("you took" + Guesesleft );
+   }
+}
