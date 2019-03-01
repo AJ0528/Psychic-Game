@@ -25,4 +25,5 @@ if (counter > Guesesleft){
        document.write("The random letter was" + randonLetter);
        document.write("you took" + Guesesleft );
    }
+   console.log(Letters);
 }
