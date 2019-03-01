@@ -21,7 +21,7 @@ if (counter > Guesesleft){
    }
 
    if (userInput === randonLetter) {
-       document.write("Congrats you have the correct letter!");
+       document.write("Congrats you have the correct letter!"+ wins);
        document.write("The random letter was" + randonLetter);
        document.write("you took" + Guesesleft );
    }
